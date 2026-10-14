@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="FUNDO">
+    
+    <main class="main">
+        <div class="Cabeçario">
+            <div class="Imagem">
+                <img src="./imagens/Planilha.png" alt="">
+            </div>
+
+            <div class="Texto_Cabe">
+                <h1>LISTA DE TAREFAS</h1>
+            </div>
+
+        </div> <!-- Aqui fecha a div do cabeçario -->
+
+
+        <div class="Base_Lista">
+            <div class="Add_Tarefa">
+                <input 
+                    type="text" 
+                    id="Nova_Tarefa" 
+                    placeholder="Digite uma nova tarefa"
+                >
+
+                <button id="bt_add">
+                    ADD
+                </button>
+            </div>
+
+            <div class="Filtro">
+                <div class="bt_Filtro">
+                    <button id="bt_Todas">
+                        Todas
+                    </button>
+                    <button id="bt_Pendentes">
+                        Pendentes
+                    </button>
+                    <button id="bt_Concluidas">
+                        Concluídas
+                    </button>
+
+                </div>
+
+                <div class="bt_Del32">
+                    <button id="bt_Limpar">
+                        Limpar Tudo
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Tarefas">
+                <div class="Nome_Tarefa">
+                    <input type="checkbox">
+                    <h2>Sonegar Imposto</h2>
+                </div>
+
+                <div class="img_Tarefas">
+                    <button id="bt_Lapis_Inicial">
+                        <img src="./imagens/Lapis.png" alt="">
+                    </button>
+
+                    <button id="bt_Lixeira_Inicial">
+                        <img src="./imagens/Lixeira.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </div> <!-- Base_Lista -->
+
+
+        <div class="Quantidade_Tarefas">
+            <h2>TOTAL DE TAREFAS: <span id="Total_Tarefas">1</span></h2>
+        </div> <!-- Quantidade_Tarefas -->
+
+    </main> <!-- Aqui fecha o main -->
+
+
+    <script src="./Script.js"></script>
+
+</body>
+</html>

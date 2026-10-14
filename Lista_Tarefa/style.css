@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+.FUNDO{
+    @apply
+    bg-blue-700
+    ml-30 mr-30 mt-10 mb-10
+    ;
+}
+
+.main{
+    @apply
+    bg-blue-900
+    rounded-4xl
+    flex
+    flex-col
+    overflow-hidden
+    ;
+}
+
+.Nome_Tarefa {
+    @apply
+    flex
+    flex-row
+    items-center
+    gap-3
+    mt-2
+    ;
+}
+
+/* === CABEÇARIO === */
+.Cabeçario{
+    @apply
+    bg-blue-950
+    w-full
+    flex
+    flex-row
+    p-5
+    ;
+}
+.Cabeçario img{
+    @apply
+    h-30 w-35
+    ;
+}
+.Texto_Cabe{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    text-5xl
+    font-bold
+    text-center
+    w-full
+    ;
+}
+/*-==============================================*/
+
+/*=== BASE DA LISTA ===*/
+.Add_Tarefa{
+    @apply
+    w-full
+    p-5
+    flex
+    flex-row
+    gap-5
+    ;
+}
+.Add_Tarefa input{
+    @apply
+    w-full
+    border-2
+    border-gray-950
+    rounded-4xl
+    p-2
+    bg-gray-500
+    ;
+}
+.Add_Tarefa button{
+    @apply
+    border-2
+    border-green-950
+    pt-2 pb-2 pl-4 pr-4
+    rounded-3xl
+    font-bold
+    bg-green-600
+    items-end
+    ;
+}
+/*-==============================================*/
+
+/* === BOTÕES DE FILTRO === */
+.Filtro{
+    @apply
+    w-full
+    flex
+    flex-row
+    items-center
+    justify-between
+    p-5
+    ;
+}
+.Filtro button{
+    @apply
+    bg-blue-500
+    rounded-lg
+    p-2
+    font-bold
+    text-white
+    ;
+}
+.bt_Filtro{
+    @apply
+    flex
+    gap-5
+    w-3/4
+    ;
+}
+.bt_Del32 button{
+    @apply
+    bg-blue-950
+    flex justify-end
+    ;
+}
+/*-==============================================*/
+
+
+/* === LISTA DE TAREDAS === */
+.Tarefas{
+    @apply
+    border-2
+    border-gray-500
+    bg-blue-400
+    rounded-lg
+    flex
+    flex-row
+    items-center
+    justify-between
+    ml-5 mr-5
+    p-3
+    gap-7
+    ;
+}
+.Tarefas img{
+    @apply
+    w-7
+    ;
+}
+.Tarefas input{
+    @apply
+    appearance-none
+    w-7 h-7
+    rounded-full
+    border-2 border-gray-950
+    bg-gray-200
+    checked:bg-green-500
+    ;
+}
+.Tarefas h2{
+    @apply
+    text-4xl
+    w-full
+    ;
+}
+.img_Tarefas {
+    @apply
+    flex
+    flex-row
+    items-center
+    gap-2
+    ;
+}
+.img_Tarefas button{
+    @apply
+    bg-gray-700
+    rounded-lg
+    p-2
+    ;
+}
+/*-==============================================*/
+
+
+/* === RODA PÉ === */
+.Quantidade_Tarefas{
+    @apply
+    bg-blue-950
+    p-5
+    mt-5
+    text-2xl
+    ;
+}
+/*-==============================================*/
+
+
+/* === COISAS PARA O SCRIPT */
+.Concluida {
+    background-color: #9ca3af;
+    border-radius: 8px;
+}
+
+.Concluida h2 {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #374151;
+}
+
+.Base_Lista {
+    @apply flex flex-col gap-2;
+}
+/*-==============================================*/
